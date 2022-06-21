@@ -1,0 +1,152 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,500&display=swap');
+
+ 
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+body{
+  background-color: #3C3C3C;
+ 
+  min-height: 100vh !important;
+ 
+}
+
+#icon{
+position: absolute;
+  display: block;
+  bottom: .5rem;
+  right: 1rem;
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.cont-search{
+
+  max-width: 420px;
+      position: relative;
+    }
+
+
+
+ input.search{
+border-radius: 10px;
+  height: 40px;
+width: 500px;
+background-color: #D9D9D9;
+}
+
+
+.cont-title{
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-weight: bold;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #222;
+}
+
+nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+nav li a:hover {
+  background: tomato;
+  color: white;
+}
+
+ 
+.center-form{
+
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10%;
+}
+
+
+
+footer{
+ margin-top: 30%;
+}
+
+
+.cont-footer{
+  display: flex;
+     justify-content: space-between;
+}
+
+.menu_footer{
+
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
