@@ -55,21 +55,6 @@ body{
  
 }
 
-#icon{
-position: absolute;
-  display: block;
-  bottom: .5rem;
-  right: 1rem;
-
-  user-select: none;
-  cursor: pointer;
-}
-
-.cont-search{
-
-  max-width: 420px;
-      position: relative;
-    }
 
 
 
@@ -131,6 +116,22 @@ nav li a:hover {
   margin-top: 10%;
 }
 
+
+#icon {
+  position: absolute;
+  display: block;
+  bottom: .5rem;
+  right: -4rem;
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.cont-search {
+
+  max-width: 420px;
+  position: relative;
+}
 
 
 footer{
