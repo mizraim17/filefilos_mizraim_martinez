@@ -50,8 +50,7 @@
 
 
 body{
-  background-color: #3C3C3C;
- 
+  background-color: #3C3C3C; 
   min-height: 100vh !important;
  
 }
@@ -135,7 +134,7 @@ nav li a:hover {
 
 
 footer{
- margin-top: 30%;
+ margin-top: 15%;
 }
 
 
