@@ -239,3 +239,14 @@ form input[type="submit"] {
 .cont-ask li {
 	padding-bottom: 10px;
 }
+
+.txt-terms {
+	font-size: 22px;
+	color: #aaa;
+}
+
+.cont-terms {
+	margin: 5%;
+	display: flex;
+	justify-content: center;
+}
