@@ -9,7 +9,8 @@
 
   <link rel="stylesheet" href="../css/styles.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
@@ -47,47 +48,53 @@
   </nav>
 
 
-  <h1>Contacto</h1>
+  <h1>
+    <span class="material-symbols-outlined">
+      <span class="material-symbols-outlined">
+        forward_to_inbox
+      </span>
+    </span>
+    Contacto
+  </h1>
+
+  <div class="cont-form">
+
+    <form action="">
+
+      <fieldset>
+
+        <legend>Contáctanos</legend>
+        <br>
+        <p>Nombre</p>
+        <input type="text" placeholder="Nombre" name="nombre">
+
+        <p>Apellido Paterno</p>
+        <input type="text" placeholder="Apellido Paterno" name="apellido_pa">
+
+        <p>Apellido Materno</p>
+        <input type="text" placeholder="Apellido Materno" name="apellido_ma">
+
+        <p>Email </p>
+        <input type="email" placeholder=" Email" name="email">
 
 
-  <form action="">
+        <br>
+        <p>Asunto </p>
+        <input type="text" placeholder=" Asunto" name="asunto">
 
-    <fieldset>
-
-      <legend>Contáctanos</legend>
-
-
-
-      <p>Nombre</p>
-      <input type="text" placeholder="Nombre" name="nombre">
-
-      <p>Apellido Paterno</p>
-      <input type="text" placeholder="Apellido Paterno" name="apellido_pa">
-
-      <p>Apellido Materno</p>
-      <input type="text" placeholder="Apellido Materno" name="apellido_ma">
-
-      <p>Email </p>
-      <input type="email" placeholder=" Asunto" name="asunto">
-
-
-      <br>
-      <p>Asunto </p>
-      <input type="text" placeholder=" Asunto" name="asunto">
-
-      <br>
-      <p>Mensaje </p>
-      <input type="text" placeholder="mensaje" name="mensaje">
+        <br>
+        <p>Mensaje </p>
+        <input type="text" placeholder="Mensaje" name="mensaje">
 
 
 
-      <br>
-      <br>
-      <input type="submit" value="enviar">
-    </fieldset>
-  </form>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+      </fieldset>
+    </form>
 
-
+  </div>
   <footer>
 
 

@@ -12,7 +12,7 @@ body {
 	background-color: #3c3c3c;
 	min-height: 100vh !important;
 	font-family: "Rubik", sans-serif;
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 }
 
 input.search {
@@ -107,6 +107,64 @@ footer {
 	padding-top: 20px;
 }
 
+.cont__cover_pelis {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	flex-wrap: wrap;
+
+	padding: 20px 80px;
+}
+.cont-form form {
+	background-color: #aaa;
+	color: #3c3c3c;
+	min-width: 300px;
+}
+
+.cont-form form {
+	width: 300px;
+	padding: 16px;
+	border-radius: 10px;
+	margin: auto;
+	background-color: #ccc;
+}
+
+form label {
+	width: 72px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.cont-form form input[type="text"],
+form input[type="email"] {
+	width: 180px;
+	padding: 5px 10px;
+	border: 1px solid #f6f6f6;
+	border-radius: 3px;
+	background-color: #f6f6f6;
+	margin: 8px 0;
+	display: inline-block;
+}
+
+form input[type="submit"] {
+	width: 100%;
+	padding: 8px 16px;
+	margin-top: 32px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	display: block;
+	color: #fff;
+	background-color: rgb(77, 77, 77);
+	font-size: 22px;
+}
+
+.cont-form {
+	margin-top: 5%;
+	display: flex;
+	color: white;
+	justify-content: center;
+}
+
 .menu_footer {
 	display: flex;
 	justify-content: space-evenly;
@@ -150,4 +208,34 @@ footer {
 	font-size: 20px;
 	color: #aaa;
 	margin-bottom: 20px;
+}
+
+.cont-faq {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+
+.cont-ask {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 500;
+	color: #aaa;
+}
+
+.cont-ask a {
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+.cont-ask a:visited {
+	color: white !important;
+}
+.cont-ask a:link {
+	color: white !important;
+}
+
+.cont-ask li {
+	padding-bottom: 10px;
 }
