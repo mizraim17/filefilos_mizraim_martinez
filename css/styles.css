@@ -1,152 +1,153 @@
-
-
-*{
-  padding: 0;
-  margin: 0;
+* {
+	padding: 0;
+	margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,500&display=swap');
+/* fuente */
 
- 
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://example.com/MaterialIcons-Regular.eot);
-  /* For IE6-8 */
-  src: local('Material Icons'),
-    local('MaterialIcons-Regular'),
-    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;900&display=swap");
+/* fuente */
+
+body {
+	background-color: #3c3c3c;
+	min-height: 100vh !important;
+	font-family: "Rubik", sans-serif;
+	margin-bottom: 70px;
 }
 
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
+input.search {
+	background-color: #d9d9d9;
+	border-radius: 10px;
+	height: 40px;
+	width: 500px;
 }
 
-
-body{
-  background-color: #3C3C3C; 
-  min-height: 100vh !important;
- 
+.cont-title {
+	display: flex;
+	justify-content: center;
+	margin-top: 20vh;
 }
 
-
-
-
- input.search{
-border-radius: 10px;
-  height: 40px;
-width: 500px;
-background-color: #D9D9D9;
+.cont-terminos a {
+	color: #aaa;
 }
 
-
-.cont-title{
-  margin-top: 20vh;
-  display: flex;
-  justify-content: center;
+h1 {
+	color: white;
+	font-family: "Rubik", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
 }
-
-h1{
-  font-weight: bold;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  text-align: center;
-}
-
 
 nav {
-  font-family: 'Montserrat', sans-serif;
-  
+	font-family: "Rubik", sans-serif;
 }
 
 nav ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background: #222;
+	background: #222;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 nav li a {
-  color: white;
-  display: block;
-  text-decoration: none;
-  padding: .5em 1em;
+	color: white;
+	display: block;
+	padding: 0.5em 1em;
+	text-decoration: none;
 }
 
 nav li a:hover {
-  background: tomato;
-  color: white;
+	background: tomato;
+	color: white;
 }
 
- 
-.center-form{
-
-
-  display: flex;
-  justify-content: center;
-
-  margin-top: 10%;
+.center-form {
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
 }
-
 
 #icon {
-  position: absolute;
-  display: block;
-  bottom: .5rem;
-  right: -4rem;
-
-  user-select: none;
-  cursor: pointer;
+	bottom: 0.5rem;
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	right: -4rem;
+	user-select: none;
 }
 
 .cont-search {
-
-  max-width: 420px;
-  position: relative;
+	max-width: 420px;
+	position: relative;
 }
 
-
-footer{
- margin-top: 15%;
+footer {
+	position: fixed;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.4);
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
 }
 
-
-.cont-footer{
-  display: flex;
-     justify-content: space-between;
+.cont-footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
-.menu_footer{
+.cont-redes {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 20px;
+}
 
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+.menu_footer {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.pelis_ver {
+	background: #444444;
+	color: #aaa;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	width: 300px;
+}
+
+.pelis_vistas {
+	background: #444444;
+	color: #aaa;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	width: 300px;
+}
+
+.pelis_vistas ul li,
+.pelis_ver ul li {
+	list-style: none;
+	padding: 0 0 10px 11px;
+	font-family: "Rubik", sans-serif;
+}
+
+.cont__cuadro_peli {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 5%;
+}
+
+.title-list {
+	font-family: "Rubik", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #aaa;
+	margin-bottom: 20px;
 }
