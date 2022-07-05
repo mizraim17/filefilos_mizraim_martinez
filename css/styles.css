@@ -81,7 +81,7 @@ input.search {
 	background-color: #d9d9d9;
 	border-radius: 10px;
 	height: 40px;
-	width: 500px;
+	width: 250px;
 }
 
 .cont-title {
@@ -293,26 +293,28 @@ form input[type="submit"] {
 	.header {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		overflow: hidden;
+	}
+
+	.cont-search {
+		width: 250px;
 	}
 
 	nav ul {
 		flex-direction: column;
 	}
 
-	.la {
-		background-color: aqua;
-		display: flex;
+	h2 {
+		font-size: 25px;
+	}
+
+	.cont-footer {
 		flex-direction: column;
+		padding: 50px 0;
 	}
 
-	.cofi {
-		background-color: teal;
-	}
-
-	img {
-		display: block;
-		max-width: 50px;
+	#icon {
+		right: 0;
 	}
 }
