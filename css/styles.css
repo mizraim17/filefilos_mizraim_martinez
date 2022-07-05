@@ -325,3 +325,14 @@ form input[type="submit"] {
 		height: 140px;
 	}
 }
+
+@media (max-width: 550px) {
+	.cont-footer {
+		flex-direction: column;
+		padding: 20px 0;
+	}
+
+	footer {
+		height: 140px;
+	}
+}
