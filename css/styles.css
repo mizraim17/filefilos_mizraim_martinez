@@ -305,18 +305,16 @@ form input[type="submit"] {
 		flex-direction: column;
 	}
 
-	.la {
-		background-color: aqua;
-		display: flex;
+	h2 {
+		font-size: 25px;
+	}
+
+	.cont-footer {
 		flex-direction: column;
+		padding: 50px 0;
 	}
 
-	.cofi {
-		background-color: teal;
-	}
-
-	img {
-		display: block;
-		max-width: 50px;
+	#icon {
+		right: 0;
 	}
 }
