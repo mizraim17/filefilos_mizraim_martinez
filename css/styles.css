@@ -43,6 +43,7 @@ header {
 	justify-content: space-between;
 	background-color: #222;
 	align-items: center;
+	width: auto;
 }
 
 header nav a:hover {
@@ -286,4 +287,32 @@ form input[type="submit"] {
 	margin: 5%;
 	display: flex;
 	justify-content: center;
+}
+
+@media (max-width: 320px) {
+	.header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		overflow: hidden;
+	}
+
+	nav ul {
+		flex-direction: column;
+	}
+
+	.la {
+		background-color: aqua;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cofi {
+		background-color: teal;
+	}
+
+	img {
+		display: block;
+		max-width: 50px;
+	}
 }
