@@ -290,6 +290,10 @@ form input[type="submit"] {
 }
 
 @media (max-width: 450px) {
+	.cont-title {
+		padding: 0 5%;
+	}
+
 	.header {
 		display: flex;
 		flex-direction: row;
