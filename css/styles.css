@@ -81,7 +81,7 @@ input.search {
 	background-color: #d9d9d9;
 	border-radius: 10px;
 	height: 40px;
-	width: 500px;
+	width: 250px;
 }
 
 .cont-title {
@@ -293,8 +293,12 @@ form input[type="submit"] {
 	.header {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		overflow: hidden;
+	}
+
+	.cont-search {
+		width: 250px;
 	}
 
 	nav ul {
