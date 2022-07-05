@@ -1,18 +1,79 @@
 * {
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	list-style: none;
 }
-
 /* fuente */
-
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;900&display=swap");
 /* fuente */
 
 body {
 	background-color: #3c3c3c;
 	min-height: 100vh !important;
-	font-family: "Rubik", sans-serif;
+	/* font-family: "Rubik", sans-serif; */
 	margin-bottom: 100px;
+
+	display: grid;
+	grid-template-areas:
+		"header"
+		"main"
+		"footer";
+	grid-template-rows: auto 1fr auto;
+	grid-template-columns: auto;
+}
+
+h2 {
+	color: white;
+	font-family: "Rubik", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.vape {
+	color: tomato;
+	font-family: "Rubik", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #222;
+	align-items: center;
+}
+
+header nav a:hover {
+	background: tomato;
+	color: white;
+}
+
+header .cont__logo img {
+	max-height: 50px;
+}
+
+nav {
+	font-family: "Rubik", sans-serif;
+}
+
+nav ul.menu__principal {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+nav li a {
+	color: white;
+	display: block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background: tomato;
+	color: white;
 }
 
 input.search {
@@ -30,38 +91,6 @@ input.search {
 
 .cont-terminos a {
 	color: #aaa;
-}
-
-h1 {
-	color: white;
-	font-family: "Rubik", sans-serif;
-	font-size: 40px;
-	font-weight: bold;
-	text-align: center;
-}
-
-nav {
-	font-family: "Rubik", sans-serif;
-}
-
-nav ul {
-	background: #222;
-	display: flex;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-nav li a {
-	color: white;
-	display: block;
-	padding: 0.5em 1em;
-	text-decoration: none;
-}
-
-nav li a:hover {
-	background: tomato;
-	color: white;
 }
 
 .center-form {
@@ -95,16 +124,26 @@ footer {
 }
 
 .cont-footer {
+	align-items: center;
 	display: flex;
 	justify-content: space-evenly;
-	align-items: center;
 }
 
 .cont-redes {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding-top: 20px;
+}
+
+.cont-redes ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.cont-redes ul li {
+	margin-right: 15px;
 }
 
 .cont__cover_pelis {
@@ -115,11 +154,6 @@ footer {
 
 	padding: 20px 80px;
 }
-.cont-form form {
-	background-color: #aaa;
-	color: #3c3c3c;
-	min-width: 300px;
-}
 
 .cont-form form {
 	width: 300px;
@@ -127,6 +161,9 @@ footer {
 	border-radius: 10px;
 	margin: auto;
 	background-color: #ccc;
+	background-color: #aaa;
+	color: #3c3c3c;
+	min-width: 300px;
 }
 
 form label {
