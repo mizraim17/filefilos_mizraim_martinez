@@ -10,7 +10,7 @@
 body {
 	background-color: #3c3c3c;
 	min-height: 100vh !important;
-	/* font-family: "Rubik", sans-serif; */
+	font-family: "Rubik", sans-serif;
 	margin-bottom: 100px;
 
 	display: grid;
