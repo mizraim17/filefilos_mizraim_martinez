@@ -10,7 +10,7 @@
 body {
 	background-color: #3c3c3c;
 	min-height: 100vh !important;
-	/* font-family: "Rubik", sans-serif; */
+	font-family: "Rubik", sans-serif;
 	margin-bottom: 100px;
 
 	display: grid;
@@ -293,7 +293,7 @@ form input[type="submit"] {
 	.header {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		overflow: hidden;
 	}
 
@@ -311,6 +311,10 @@ form input[type="submit"] {
 
 	.cont-footer {
 		flex-direction: column;
-		padding: 50px 0;
+		padding: 20px 0;
+	}
+
+	footer {
+		height: 140px;
 	}
 }
