@@ -289,7 +289,7 @@ form input[type="submit"] {
 	justify-content: center;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
 	.header {
 		display: flex;
 		flex-direction: row;
