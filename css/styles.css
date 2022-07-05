@@ -293,6 +293,9 @@ form input[type="submit"] {
 	.cont-title {
 		padding: 0 5%;
 	}
+	.cont-title h2 {
+		color: tomato;
+	}
 
 	.header {
 		display: flex;
