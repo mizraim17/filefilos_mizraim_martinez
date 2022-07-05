@@ -105,7 +105,7 @@ input.search {
 	cursor: pointer;
 	display: block;
 	position: absolute;
-	right: -4rem;
+	right: 1rem;
 	user-select: none;
 }
 
@@ -289,7 +289,7 @@ form input[type="submit"] {
 	justify-content: center;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
 	.header {
 		display: flex;
 		flex-direction: row;
@@ -312,9 +312,5 @@ form input[type="submit"] {
 	.cont-footer {
 		flex-direction: column;
 		padding: 50px 0;
-	}
-
-	#icon {
-		right: 0;
 	}
 }
