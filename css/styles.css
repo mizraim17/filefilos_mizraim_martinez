@@ -34,7 +34,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	padding-top: 3 %;
+	padding-top: 3%;
 }
 
 .tit__main span {
@@ -290,14 +290,14 @@ form input[type="submit"] {
 }
 
 .cont-ask a {
-	text-decoration: none;
+	/* text-decoration: none; */
 	padding-bottom: 10px;
 }
 .cont-ask a:visited {
-	color: white !important;
+	color: white;
 }
 .cont-ask a:link {
-	color: white !important;
+	color: white;
 }
 
 .cont-ask li {
