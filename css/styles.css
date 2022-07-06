@@ -28,6 +28,19 @@ body {
 	grid-template-columns: auto;
 }
 
+.tit__main {
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-top: 3 %;
+}
+
+.tit__main span {
+	font-size: 32px;
+}
+
 h2 {
 	color: white;
 	font-family: "Rubik", sans-serif;
@@ -163,7 +176,6 @@ footer {
 	justify-content: space-between;
 	gap: 20px;
 	flex-wrap: wrap;
-
 	padding: 20px 80px;
 }
 
@@ -303,7 +315,40 @@ form input[type="submit"] {
 	justify-content: center;
 }
 
+iframe {
+	max-width: 100%;
+	height: auto;
+}
+
+.cont-video {
+	display: flex;
+	justify-content: center;
+}
+
+.cont-ask {
+	display: flex;
+	justify-content: center;
+}
+
 @media (max-width: 550px) {
+	.tit__main {
+		padding-top: 11%;
+	}
+
+	.cont-faq {
+		flex-direction: column;
+	}
+
+	.cont-video {
+		order: 1;
+		margin-top: 5%;
+	}
+
+	.cont-ask {
+		margin-top: 5%;
+		order: 0;
+	}
+
 	.cont-title {
 		padding: 0 5%;
 	}
