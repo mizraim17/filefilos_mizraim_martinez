@@ -49,14 +49,6 @@ h2 {
 	text-align: center;
 }
 
-p.vape {
-	color: tomato;
-	font-family: "Rubik", sans-serif;
-	font-size: 40px;
-	font-weight: bold;
-	text-align: center;
-}
-
 header {
 	display: flex;
 	justify-content: space-between;
