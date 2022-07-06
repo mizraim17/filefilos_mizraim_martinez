@@ -3,6 +3,12 @@
 	padding: 0;
 	list-style: none;
 }
+
+figure {
+	padding: 0;
+	margin: 0;
+}
+
 /* fuente */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;900&display=swap");
 /* fuente */
@@ -51,8 +57,13 @@ header nav a:hover {
 	color: white;
 }
 
-header .cont__logo img {
-	max-height: 50px;
+.cont__logo {
+	max-height: 55px;
+	background-color: rebeccapurple !important;
+}
+
+.header figure img {
+	max-height: 55px;
 }
 
 nav {
@@ -210,21 +221,23 @@ form input[type="submit"] {
 }
 
 .pelis_ver {
-	background: #444444;
+	background: #555555;
 	color: #aaa;
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
-	width: 300px;
+	width: 250px;
+	height: 350px;
 }
 
 .pelis_vistas {
-	background: #444444;
+	background: #555555;
 	color: #aaa;
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
-	width: 300px;
+	width: 250px;
+	height: 350px;
 }
 
 .pelis_vistas ul li,
@@ -238,6 +251,7 @@ form input[type="submit"] {
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 5%;
+	gap: 20px;
 }
 
 .title-list {
@@ -289,7 +303,7 @@ form input[type="submit"] {
 	justify-content: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
 	.cont-title {
 		padding: 0 5%;
 	}
@@ -324,15 +338,16 @@ form input[type="submit"] {
 	footer {
 		height: 140px;
 	}
-}
 
-@media (max-width: 550px) {
-	.cont-footer {
+	.cont__cuadro_peli {
 		flex-direction: column;
-		padding: 20px 0;
 	}
 
-	footer {
-		height: 140px;
+	.pelis_ver {
+		margin: 10% auto 5%;
+	}
+
+	.pelis_vistas {
+		margin: 5% auto;
 	}
 }
