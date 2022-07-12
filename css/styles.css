@@ -60,6 +60,8 @@ header {
 header nav a:hover {
 	background: tomato;
 	color: white;
+
+	font-style: italic;
 }
 
 .cont__logo {
@@ -195,7 +197,7 @@ form input[type="email"] {
 	border: 1px solid #f6f6f6;
 	border-radius: 3px;
 	background-color: #f6f6f6;
-	margin: 8px 0;
+	margin: 8px 5%;
 	display: inline-block;
 }
 
@@ -320,6 +322,44 @@ iframe {
 .cont-ask {
 	display: flex;
 	justify-content: center;
+}
+
+fieldset p {
+	padding-left: 5% !important;
+}
+
+/* animaciones */
+.cont__logo {
+	animation-duration: 3s;
+	animation-name: aparecer;
+	animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+	0% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* transiciones */
+
+.cont-redes ul li img:hover {
+	transform: scale(0.7);
+}
+
+.menu__principal ul li {
+	font-style: italic;
 }
 
 /* medias querys */
