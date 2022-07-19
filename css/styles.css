@@ -68,7 +68,11 @@ header nav a:hover {
 	max-height: 55px;
 }
 
-.header figure img {
+.header picture img {
+	max-height: 55px;
+}
+
+picture img {
 	max-height: 55px;
 }
 
