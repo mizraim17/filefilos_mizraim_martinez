@@ -15,17 +15,8 @@ figure {
 
 body {
 	background-color: #3c3c3c;
-	min-height: 100vh !important;
-	font-family: "Rubik", sans-serif;
-	margin-bottom: 100px;
 
-	display: grid;
-	grid-template-areas:
-		"header"
-		"main"
-		"footer";
-	grid-template-rows: auto 1fr auto;
-	grid-template-columns: auto;
+	font-family: "Rubik", sans-serif;
 }
 
 .tit__main {
@@ -47,14 +38,6 @@ h2 {
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
-}
-
-header {
-	display: flex;
-	justify-content: space-between;
-	background-color: #222;
-	align-items: center;
-	width: auto;
 }
 
 header nav a:hover {
@@ -111,6 +94,12 @@ input.search {
 	margin-top: 10vh;
 }
 
+.cont-terminos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .cont-terminos a {
 	color: #aaa;
 }
@@ -137,7 +126,7 @@ input.search {
 
 footer {
 	position: fixed;
-	height: 100px;
+
 	background-color: rgba(0, 0, 0, 0.4);
 	bottom: 0px;
 	left: 0px;
@@ -151,21 +140,11 @@ footer {
 	justify-content: space-evenly;
 }
 
-.cont-redes {
+.cont__redes {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 20px;
-}
-
-.cont-redes ul {
-	display: flex;
-	justify-content: space-evenly;
-	list-style: none;
-}
-
-.cont-redes ul li {
-	margin-right: 15px;
+	padding: 3% 0;
 }
 
 .cont__cover_pelis {
@@ -239,6 +218,11 @@ form input[type="submit"] {
 	height: 350px;
 }
 
+.centrar {
+	display: flex;
+	justify-content: center;
+}
+
 .pelis_vistas {
 	background: #555555;
 	color: #aaa;
@@ -247,6 +231,7 @@ form input[type="submit"] {
 	padding: 20px;
 	width: 250px;
 	height: 350px;
+	justify-content: center;
 }
 
 .pelis_vistas ul li,
@@ -446,7 +431,7 @@ img .dance.move2 {
 
 /* transiciones */
 
-.cont-redes ul li img:hover {
+ul.cont__redes li img:hover {
 	transform: scale(0.7);
 }
 
