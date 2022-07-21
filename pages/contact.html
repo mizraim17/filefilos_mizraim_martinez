@@ -70,42 +70,57 @@
         Contacto
       </h1>
 
-      <div class="cont-form">
-
-        <form action="">
-
-          <fieldset>
-
-            <legend>Contáctanos</legend>
-            <br>
-            <p>Nombre</p>
-            <input type="text" placeholder="Nombre" name="nombre">
-
-            <p>Apellido Paterno</p>
-            <input type="text" placeholder="Apellido Paterno" name="apellido_pa">
-
-            <p>Apellido Materno</p>
-            <input type="text" placeholder="Apellido Materno" name="apellido_ma">
-
-            <p>Email </p>
-            <input type="email" placeholder=" Email" name="email">
 
 
-            <br>
-            <p>Asunto </p>
-            <input type="text" placeholder=" Asunto" name="asunto">
-
-            <br>
-            <p>Mensaje </p>
-            <input type="text" placeholder="Mensaje" name="mensaje">
+      <div class="contaiber">
+        <div class="row">
+          <div class="col-4">
 
 
+          </div>
+          <div class="col-4">
 
-            <br>
-            <br>
-            <input type="submit" value="Enviar">
-          </fieldset>
-        </form>
+            <form action="" class="form__login">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Apellido Paterno</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Apellido Materno</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text">Mensaje</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+
+              <div class="center__horizontal">
+                <button type="submit" class="btn btn-primary">enviar</button>
+              </div>
+
+            </form>
+
+
+
+          </div>
+          <div class="col-4">
+
+
+          </div>
+        </div>
+      </div>
+
+
+
 
       </div>
     </main>
