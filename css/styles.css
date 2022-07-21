@@ -40,11 +40,27 @@ h2 {
 	text-align: center;
 }
 
+.film__found {
+	color: white;
+	font-size: 2rem;
+	margin: 10% 0 8%;
+}
+
 header nav a:hover {
 	background: tomato;
 	color: white;
-
 	font-style: italic;
+}
+
+header nav a:first-child {
+	background: none;
+	color: white;
+	font-style: italic;
+}
+
+.center__horizontal {
+	display: flex;
+	justify-content: center;
 }
 
 .cont__logo {
@@ -155,6 +171,7 @@ footer {
 	padding: 20px 80px;
 }
 
+/* 
 .cont-form form {
 	width: 300px;
 	padding: 16px;
@@ -200,7 +217,7 @@ form input[type="submit"] {
 	display: flex;
 	color: white;
 	justify-content: center;
-}
+} */
 
 .menu_footer {
 	display: flex;
@@ -314,6 +331,19 @@ iframe {
 
 fieldset p {
 	padding-left: 5% !important;
+}
+
+.login__button {
+	color: white;
+
+	padding-top: 15%;
+	margin: 0;
+}
+
+.form__login {
+	background-color: #d9d9d9;
+	margin-top: 5%;
+	padding: 3%;
 }
 
 /* animaciones */
@@ -465,13 +495,6 @@ ul.cont__redes li img:hover {
 	}
 	.cont-title h2 {
 		color: tomato;
-	}
-
-	.header {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		overflow: hidden;
 	}
 
 	.cont-search {
