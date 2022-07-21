@@ -55,7 +55,6 @@ header nav a:hover {
 header nav a:first-child {
 	background: none;
 	color: white;
-	font-style: italic;
 }
 
 .center__horizontal {
