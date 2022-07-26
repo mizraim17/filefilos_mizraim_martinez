@@ -1,268 +1,147 @@
 /*Fuentes*/
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;900&display=swap");
 * {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
+  margin: 0;
+  padding: 0;
+  list-style: none; }
 
 figure {
-	padding: 0;
-	margin: 0;
-}
+  padding: 0;
+  margin: 0; }
 
 /* fuente */
 /* fuente */
 body {
-	background-color: #3c3c3c;
-	font-family: "Rubik", sans-serif;
-}
+  background-color: #3c3c3c;
+  font-family: "Rubik", sans-serif; }
 
 .center__horizontal {
-	display: flex;
-	justify-content: center;
-}
-
-@media (max-width: 550px) {
-	.tit__main {
-		padding-top: 11%;
-	}
-	.cont-faq {
-		flex-direction: column;
-	}
-	.cont-video {
-		order: 1;
-		margin-top: 5%;
-	}
-	.cont-ask {
-		margin-top: 5%;
-		order: 0;
-	}
-	.cont-title {
-		padding: 0 5%;
-	}
-	.cont-title h2 {
-		color: tomato;
-	}
-	.cont-search {
-		width: 250px;
-	}
-	nav ul {
-		flex-direction: column;
-	}
-	h2 {
-		font-size: 25px;
-	}
-	.cont-footer {
-		flex-direction: column;
-		padding: 20px 0;
-	}
-	footer {
-		height: 140px;
-	}
-	.cont__cuadro_peli {
-		flex-direction: column;
-	}
-	.pelis_ver {
-		margin: 10% auto 5%;
-	}
-	.pelis_vistas {
-		margin: 5% auto;
-	}
-}
+  display: flex;
+  justify-content: center; }
 
 footer {
-	position: fixed;
-	background-color: rgba(0, 0, 0, 0.4);
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	margin-bottom: 0px;
-}
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px; }
 
 .cont-footer {
-	align-items: center;
-	display: flex;
-	justify-content: space-evenly;
-}
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly; }
 
 .cont-terminos {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.cont-terminos a {
-	color: #aaa;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .cont-terminos a {
+    color: #aaa; }
 
 .tit__main {
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	padding-top: 3%;
-}
-.tit__main span {
-	font-size: 32px;
-}
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3%; }
+  .tit__main span {
+    font-size: 32px; }
 
-header nav a__:hover {
-	background: tomato;
-	color: white;
-	font-style: italic;
-}
+header nav a:hover {
+  background: tomato;
+  color: white;
+  font-style: italic; }
 
-header nav a__:first-child {
-	background: none;
-	color: white;
-}
+header nav a:first-child {
+  background: none;
+  color: white; }
 
 .cont__logo {
-	max-height: 55px;
-}
+  max-height: 55px; }
 
 .header picture img {
-	max-height: 55px;
-}
+  max-height: 55px; }
 
 nav {
-	font-family: "Rubik", sans-serif;
-}
-nav__.menu__principal {
-	display: flex;
-	margin: 0;
-	padding: 0;
-}
-nav__li a {
-	color: white;
-	display: block;
-	padding: 0.5em 1em;
-	text-decoration: none;
-}
-nav__li a__:hover {
-	background: tomato;
-	color: white;
-}
+  font-family: "Rubik", sans-serif; }
+  nav.menu__principal {
+    display: flex;
+    margin: 0;
+    padding: 0; }
+  nav li a {
+    color: white;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none; }
+    nav li a:hover {
+      background: tomato;
+      color: white; }
+
+@media (max-width: 550px) {
+  .tit__main {
+    padding-top: 11%; }
+  .cont-faq {
+    flex-direction: column; }
+  .cont-video {
+    order: 1;
+    margin-top: 5%; }
+  .cont-ask {
+    margin-top: 5%;
+    order: 0; }
+  .cont-title {
+    padding: 0 5%; }
+  .cont-title h2 {
+    color: tomato; }
+  .cont-search {
+    width: 250px; }
+  nav ul {
+    flex-direction: column; }
+  h2 {
+    font-size: 25px; }
+  .cont-footer {
+    flex-direction: column;
+    padding: 20px 0; }
+  footer {
+    height: 140px; }
+  .cont__cuadro_peli {
+    flex-direction: column; }
+  .pelis_ver {
+    margin: 10% auto 5%; }
+  .pelis_vistas {
+    margin: 5% auto; } }
 
 .film__found {
-	color: white;
-	font-size: 2rem;
-	margin: 10% 0 8%;
-}
+  color: white;
+  font-size: 2rem;
+  margin: 10% 0 8%; }
 
 .cont-title {
-	display: flex;
-	justify-content: center;
-	margin-top: 10vh;
-}
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh; }
 
 .center-form {
-	display: flex;
-	justify-content: center;
-	margin-top: 10%;
-}
+  display: flex;
+  justify-content: center;
+  margin-top: 10%; }
 
 .cont-search {
-	max-width: 420px;
-	position: relative;
-}
+  max-width: 420px;
+  position: relative; }
 
 .cont__dance {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 5%;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%; }
 
 .cont__redes {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 3% 0;
-}
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 0; }
 
 img.dance {
-	max-height: 200px;
-}
-
-.dance.move {
-	animation-duration: 3s;
-	animation-name: baila;
-	animation-iteration-count: infinite;
-}
-
-.dance.move2 {
-	animation-duration: 3s;
-	animation-name: baila2;
-	animation-iteration-count: infinite;
-}
-
-.dance.move3 {
-	animation-duration: 3s;
-	animation-name: baila3;
-	animation-iteration-count: infinite;
-}
-
-@keyframes baila {
-	from {
-		margin-left: 0%;
-	}
-	25% {
-		margin-left: 300%;
-	}
-	75% {
-		margin-left: -300%;
-	}
-	to {
-		margin-left: 0%;
-	}
-}
-
-@keyframes baila2 {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 50;
-	}
-	70% {
-		opacity: 50;
-	}
-}
-
-@keyframes baila3 {
-	10% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 20;
-	}
-	75% {
-		opacity: 20;
-	}
-	25% {
-		opacity: 100;
-	}
-}
-
-@keyframes baila {
-	0% {
-		display: none;
-	}
-	50% {
-		display: none;
-	}
-	100% {
-		display: block;
-	}
-}
-
-/* transiciones */
-ul.cont__redes li img:hover {
-	transform: scale(0.7);
-}
-
-.menu__principal ul li {
-	font-style: italic;
-}
+  max-height: 200px; }

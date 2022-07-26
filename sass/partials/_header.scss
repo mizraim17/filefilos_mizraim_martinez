@@ -14,13 +14,13 @@
 
 
 header nav a{
-&__:hover {
+&:hover {
   background: tomato;
   color: white;
   font-style: italic;
  
 }
-&__:first-child {
+&:first-child {
   background: none;
   color: white;
 }
@@ -36,17 +36,17 @@ header nav a{
 }
 
  
-nav {
+nav{
   font-family: "Rubik", sans-serif;
 
 
-&__.menu__principal {
+&.menu__principal {
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-&__li a {
+& li a {
   color: white;
   display: block;
   padding: 0.5em 1em;
@@ -54,7 +54,7 @@ nav {
 
 
 
-  &__:hover {
+  &:hover {
       background: tomato;
       color: white;
 

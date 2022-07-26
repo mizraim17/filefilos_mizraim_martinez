@@ -15,6 +15,7 @@ figure {
 
 body {
 	background-color: #3c3c3c;
+
 	font-family: "Rubik", sans-serif;
 }
 
@@ -167,6 +168,60 @@ footer {
 	gap: 20px;
 	flex-wrap: wrap;
 	padding: 20px 80px;
+}
+
+/* 
+.cont-form form {
+	width: 300px;
+	padding: 16px;
+	border-radius: 10px;
+	margin: auto;
+	background-color: #ccc;
+	background-color: #aaa;
+	color: #3c3c3c;
+	min-width: 300px;
+}
+
+form label {
+	width: 72px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.cont-form form input[type="text"],
+form input[type="email"] {
+	width: 180px;
+	padding: 5px 10px;
+	border: 1px solid #f6f6f6;
+	border-radius: 3px;
+	background-color: #f6f6f6;
+	margin: 8px 5%;
+	display: inline-block;
+}
+
+form input[type="submit"] {
+	width: 100%;
+	padding: 8px 16px;
+	margin-top: 32px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	display: block;
+	color: #fff;
+	background-color: rgb(77, 77, 77);
+	font-size: 22px;
+}
+
+.cont-form {
+	margin-top: 5%;
+	display: flex;
+	color: white;
+	justify-content: center;
+} */
+
+.menu_footer {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
 }
 
 .pelis_ver {
