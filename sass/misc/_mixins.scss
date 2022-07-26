@@ -1,0 +1,61 @@
+
+@media (max-width: 550px) {
+  .tit__main {
+    padding-top: 11%;
+  }
+
+  .cont-faq {
+    flex-direction: column;
+  }
+
+  .cont-video {
+    order: 1;
+    margin-top: 5%;
+  }
+
+  .cont-ask {
+    margin-top: 5%;
+    order: 0;
+  }
+
+  .cont-title {
+    padding: 0 5%;
+  }
+
+  .cont-title h2 {
+    color: tomato;
+  }
+
+  .cont-search {
+    width: 250px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .cont-footer {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  footer {
+    height: 140px;
+  }
+
+  .cont__cuadro_peli {
+    flex-direction: column;
+  }
+
+  .pelis_ver {
+    margin: 10% auto 5%;
+  }
+
+  .pelis_vistas {
+    margin: 5% auto;
+  }
+}

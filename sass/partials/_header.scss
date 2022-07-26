@@ -1,0 +1,65 @@
+
+.tit__main {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3%;
+
+  span {
+    font-size: 32px;
+  }
+}
+
+
+header nav a{
+&__:hover {
+  background: tomato;
+  color: white;
+  font-style: italic;
+ 
+}
+&__:first-child {
+  background: none;
+  color: white;
+}
+}
+
+ 
+.cont__logo {
+  max-height: 55px;
+}
+
+.header picture img {
+  max-height: 55px;
+}
+
+ 
+nav {
+  font-family: "Rubik", sans-serif;
+
+
+&__.menu__principal {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+&__li a {
+  color: white;
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+
+
+
+  &__:hover {
+      background: tomato;
+      color: white;
+
+}
+}
+}
+
+ 
