@@ -1,0 +1,25 @@
+{
+  "name": "sass_first",
+  "version": "1.0.0",
+  "description": "first_release_sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss sass/index.scss assets/css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizraim17/filefilos_mizraim_martinez.git"
+  },
+  "author": "mizraim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mizraim17/filefilos_mizraim_martinez/issues"
+  },
+  "homepage": "https://github.com/mizraim17/filefilos_mizraim_martinez#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
