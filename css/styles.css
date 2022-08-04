@@ -9,6 +9,8 @@ figure {
 	margin: 0;
 }
 
+@import "./misc/mixins";
+
 /* fuente */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;900&display=swap");
 /* fuente */
@@ -17,15 +19,6 @@ body {
 	background-color: #3c3c3c;
 
 	font-family: "Rubik", sans-serif;
-}
-
-.tit__main {
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	padding-top: 3%;
 }
 
 .tit__main span {
@@ -55,11 +48,6 @@ header nav a:hover {
 header nav a:first-child {
 	background: none;
 	color: white;
-}
-
-.center__horizontal {
-	display: flex;
-	justify-content: center;
 }
 
 .cont__logo {
