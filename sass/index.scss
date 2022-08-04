@@ -13,15 +13,21 @@
 @import "./views/top_new";
 @import "./views/watchlist";
 
+.tit__main {
+	@include titulos($white, map-get($fonts, "txt-large"), $centrado);
+}
+
+.center__horizontal {
+	@extend .center__horizontal;
+}
+
 .cont-title {
-	display: flex;
-	justify-content: center;
+	@extend .center__horizontal;
 	margin-top: 10vh;
 }
 
 .center-form {
-	display: flex;
-	justify-content: center;
+	@extend .center__horizontal;
 	margin-top: 10%;
 }
 
@@ -31,8 +37,7 @@
 }
 
 .cont__dance {
-	display: flex;
-	justify-content: center;
+	@extend .center__horizontal;
 	align-items: center;
 	margin-top: 5%;
 }

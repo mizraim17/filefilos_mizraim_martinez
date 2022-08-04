@@ -15,7 +15,7 @@ body {
   background-color: #3c3c3c;
   font-family: "Rubik", sans-serif; }
 
-.center__horizontal {
+.center__horizontal, .cont-title, .center-form, .cont__dance {
   display: flex;
   justify-content: center; }
 
@@ -117,14 +117,19 @@ nav {
   font-size: 2rem;
   margin: 10% 0 8%; }
 
-.cont-title {
+.tit__main {
+  color: #c5c5c5;
   display: flex;
+  align-items: center;
   justify-content: center;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 3rem; }
+
+.cont-title {
   margin-top: 10vh; }
 
 .center-form {
-  display: flex;
-  justify-content: center;
   margin-top: 10%; }
 
 .cont-search {
@@ -132,8 +137,6 @@ nav {
   position: relative; }
 
 .cont__dance {
-  display: flex;
-  justify-content: center;
   align-items: center;
   margin-top: 5%; }
 
