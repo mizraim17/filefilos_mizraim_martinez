@@ -13,6 +13,18 @@
 @import "./views/top_new";
 @import "./views/watchlist";
 
+h2 {
+	color: $white;
+	font-family: "Rubik", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tit__main span {
+	font-size: map-get($fonts, "txt-large");
+}
+
 .tit__main {
 	@include titulos($white, map-get($fonts, "txt-large"), $centrado);
 }
