@@ -1,12 +1,12 @@
 * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 figure {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 /* fuente */
@@ -14,11 +14,11 @@ figure {
 /* fuente */
 
 body {
-  background-color: $color-background;
-  font-family: $font-primary;
+	background-color: $color-background;
+	font-family: $font-primary;
 }
 
 .center__horizontal {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }

@@ -49,35 +49,28 @@ footer {
   .tit__main span {
     font-size: 32px; }
 
-header nav a:hover {
-  background: tomato;
-  color: white;
-  font-style: italic; }
-
-header nav a:first-child {
-  background: none;
-  color: white; }
-
-.cont__logo {
+header nav img {
   max-height: 55px; }
 
-.header picture img {
-  max-height: 55px; }
-
-nav {
-  font-family: "Rubik", sans-serif; }
-  nav.menu__principal {
+header nav ul {
+  align-items: center; }
+  header nav ul.menu__principal {
     display: flex;
     margin: 0;
     padding: 0; }
-  nav li a {
+  header nav ul a {
+    font-family: "Rubik", sans-serif;
     color: white;
     display: block;
     padding: 0.5em 1em;
     text-decoration: none; }
-    nav li a:hover {
+    header nav ul a:hover {
       background: tomato;
-      color: white; }
+      color: #aaa;
+      font-style: italic; }
+  header nav ul:first-child {
+    background: none;
+    color: white; }
 
 @media (max-width: 550px) {
   .tit__main {
@@ -113,7 +106,7 @@ nav {
     margin: 5% auto; } }
 
 .film__found {
-  color: white;
+  color: #c5c5c5;
   font-size: 2rem;
   margin: 10% 0 8%; }
 
