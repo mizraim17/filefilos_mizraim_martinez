@@ -15,9 +15,18 @@ body {
   background-color: #3c3c3c;
   font-family: "Rubik", sans-serif; }
 
-.center__horizontal, .cont-title, .center-form, .cont__dance {
+.center-form, .cont-footer, .cont__redes, .pelis_ver, .pelis_vistas, .center__horizontal, .cont-title, .cont__dance {
   display: flex;
   justify-content: center; }
+
+.center__vertical, .cont-ask, .cont__redes {
+  display: flex;
+  align-items: center; }
+
+.center__total, .cont-terminos, .tit__main {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 footer {
   position: fixed;
@@ -32,12 +41,26 @@ footer {
   display: flex;
   justify-content: space-evenly; }
 
-.cont-terminos {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .cont-terminos a {
-    color: #aaa; }
+.cont-terminos a {
+  color: #aaa; }
+
+.center-form {
+  margin-top: 10%; }
+
+footer {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px; }
+
+.cont-footer {
+  justify-content: space-evenly; }
+
+.cont__redes {
+  justify-content: space-between;
+  padding: 3% 0; }
 
 .tit__main {
   color: white;
@@ -105,10 +128,51 @@ header nav ul {
   .pelis_vistas {
     margin: 5% auto; } }
 
+.cont-ask {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #aaa; }
+  .cont-ask a {
+    text-decoration: none; }
+    .cont-ask a:visited, .cont-ask a:link {
+      color: white; }
+  .cont-ask li {
+    list-style: circle;
+    padding-bottom: 10px; }
+
 .film__found {
   color: #c5c5c5;
   font-size: 2rem;
   margin: 10% 0 8%; }
+
+.pelis_ver {
+  background: #555;
+  color: #aaa;
+  flex-direction: column;
+  width: 300px;
+  height: 350px;
+  padding: 20px; }
+
+.pelis_vistas {
+  background: #555;
+  color: #aaa;
+  flex-direction: column;
+  width: 300px;
+  height: 350px;
+  padding: 20px; }
+
+.pelis_vistas ul li,
+.pelis_ver ul li {
+  list-style: none;
+  padding: 0 0 10px 11px;
+  font-family: "Rubik", sans-serif; }
+
+.title-list {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #aaa;
+  margin-bottom: 20px; }
 
 h2 {
   color: #c5c5c5;
@@ -122,9 +186,6 @@ h2 {
 
 .tit__main {
   color: #c5c5c5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   padding-top: 3%;
   font-size: 3rem; }
@@ -135,6 +196,14 @@ h2 {
 .center-form {
   margin-top: 10%; }
 
+#icon {
+  bottom: 0.5rem;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  right: 1rem;
+  user-select: none; }
+
 .cont-search {
   max-width: 420px;
   position: relative; }
@@ -144,8 +213,6 @@ h2 {
   margin-top: 5%; }
 
 .cont__redes {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 3% 0; }
 

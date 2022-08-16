@@ -1,0 +1,30 @@
+.pelis_ver {
+	background: $color-background-box;
+	color: #aaa;
+	@extend .center__horizontal;
+	flex-direction: column;
+	@include box__list__size;
+}
+
+.pelis_vistas {
+	background: $color-background-box;
+	color: $color-white-trans;
+	@extend .center__horizontal;
+	flex-direction: column;
+	@include box__list__size;
+}
+
+.pelis_vistas ul li,
+.pelis_ver ul li {
+	list-style: none;
+	padding: 0 0 10px 11px;
+	font-family: "Rubik", sans-serif;
+}
+
+.title-list {
+	font-family: $font-primary;
+	font-weight: 600;
+	font-size: map-get($fonts, "txt-nom-med");
+	color: $color-white-trans;
+	margin-bottom: 20px;
+}

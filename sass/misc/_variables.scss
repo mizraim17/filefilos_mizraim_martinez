@@ -1,14 +1,20 @@
 /*Fuentes*/
 $font-primary: "Rubik", sans-serif;
 $color-background: #3c3c3c;
+$color-background-box: #555;
 $color-white-trans: #aaa;
-$white-main: rgb(197, 197, 197);
+$white-main: #c5c5c5;
 $bck-over: tomato;
 
 $centrado: center;
 
 $fonts: (
-	txt-large: 3rem,
-	txt-medium: 2rem,
 	txt-normal: 1rem,
+	txt-nom-med: 1.5rem,
+	txt-medium: 2rem,
+	txt-large: 3rem,
 );
+
+$width-box: 250px;
+$padding-box: 20px;
+$height-box: 350px;

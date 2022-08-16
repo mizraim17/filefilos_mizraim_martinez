@@ -1,0 +1,20 @@
+.cont-ask {
+	@extend .center__vertical;
+
+	font-size: map-get($fonts, "txt-nom-med");
+	font-weight: 500;
+	color: #aaa;
+
+	a {
+		text-decoration: none;
+
+		&:visited,
+		&:link {
+			color: white;
+		}
+	}
+	li {
+		list-style: circle;
+		padding-bottom: 10px;
+	}
+}

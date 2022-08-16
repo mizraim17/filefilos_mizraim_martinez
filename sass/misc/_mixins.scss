@@ -1,11 +1,15 @@
 @mixin titulos($colors, $tam_font, $alin_txt) {
 	color: $colors;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@extend .center__total;
 	text-align: $alin_txt;
 	padding-top: 3%;
 	font-size: $tam_font;
+}
+
+@mixin box__list__size {
+	width: 300px;
+	height: 350px;
+	padding: 20px;
 }
 
 @media (max-width: 550px) {
