@@ -1,9 +1,9 @@
 @import "./misc/variables";
 @import "./misc/normalize";
+@import "./misc/mixins";
 
 @import "./partials/footer";
 @import "./partials/header";
-@import "./misc/mixins";
 
 @import "./views/contact";
 @import "./views/faq";
@@ -19,14 +19,6 @@ h2 {
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
-}
-
-.tit__main span {
-	font-size: map-get($fonts, "txt-large");
-}
-
-.tit__main {
-	@include titulos($white-main, map-get($fonts, "txt-large"), $centrado);
 }
 
 .center__horizontal {

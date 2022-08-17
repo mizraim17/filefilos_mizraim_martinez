@@ -1,9 +1,9 @@
 @mixin titulos($colors, $tam_font, $alin_txt) {
 	color: $colors;
-	@extend .center__total;
-	text-align: $alin_txt;
-	padding-top: 3%;
 	font-size: $tam_font;
+	text-align: $alin_txt;
+	@extend .center__total;
+	padding-top: 7%;
 }
 
 @mixin box__list__size {
@@ -12,63 +12,66 @@
 	padding: 20px;
 }
 
-@media (max-width: 550px) {
+.cont-terminos a {
+	padding-top: 15%;
+}
+
+.cont-faq {
+	flex-direction: column;
+}
+
+.cont-video {
+	order: 1;
+	margin-top: 5%;
+}
+
+.cont-ask {
+	margin-top: 5%;
+	order: 0;
+}
+
+.cont-title {
+	padding: 0 5%;
+}
+
+.cont-title h2 {
+	color: $bck-over;
+}
+
+.cont-search {
+	width: 250px;
+}
+
+nav ul {
+	flex-direction: column;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+footer {
+	height: 140px;
+}
+
+.cont__cuadro_peli {
+	flex-direction: column;
+}
+
+.pelis_ver,
+.pelis_vistas {
+	margin: 10% auto 5%;
+}
+
+@media (min-width: 768px) {
 	.tit__main {
-		padding-top: 11%;
+		padding-top: 5%;
+		color: tomato;
 	}
+}
 
-	.cont-faq {
-		flex-direction: column;
-	}
-
-	.cont-video {
-		order: 1;
-		margin-top: 5%;
-	}
-
-	.cont-ask {
-		margin-top: 5%;
-		order: 0;
-	}
-
-	.cont-title {
-		padding: 0 5%;
-	}
-
-	.cont-title h2 {
-		color: $bck-over;
-	}
-
-	.cont-search {
-		width: 250px;
-	}
-
-	nav ul {
-		flex-direction: column;
-	}
-
-	h2 {
-		font-size: 25px;
-	}
-
-	.cont-footer {
-		flex-direction: column;
-		padding: 20px 0;
-	}
-
-	footer {
-		height: 140px;
-	}
-
-	.cont__cuadro_peli {
-		flex-direction: column;
-	}
-
-	.pelis_ver {
-		margin: 10% auto 5%;
-	}
-
-	.pelis_vistas {
-		margin: 5% auto;
+@media (min-width: 1200px) {
+	.cont-terminos a {
+		padding-top: 0;
 	}
 }

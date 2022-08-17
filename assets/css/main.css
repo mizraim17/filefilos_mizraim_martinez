@@ -28,6 +28,54 @@ body {
   justify-content: center;
   align-items: center; }
 
+.cont-terminos a {
+  padding-top: 15%; }
+
+.cont-faq {
+  flex-direction: column; }
+
+.cont-video {
+  order: 1;
+  margin-top: 5%; }
+
+.cont-ask {
+  margin-top: 5%;
+  order: 0; }
+
+.cont-title {
+  padding: 0 5%; }
+
+.cont-title h2 {
+  color: tomato; }
+
+.cont-search {
+  width: 250px; }
+
+nav ul {
+  flex-direction: column; }
+
+h2 {
+  font-size: 25px; }
+
+footer {
+  height: 140px; }
+
+.cont__cuadro_peli {
+  flex-direction: column; }
+
+.pelis_ver,
+.pelis_vistas {
+  margin: 10% auto 5%; }
+
+@media (min-width: 768px) {
+  .tit__main {
+    padding-top: 5%;
+    color: tomato; } }
+
+@media (min-width: 1200px) {
+  .cont-terminos a {
+    padding-top: 0; } }
+
 footer {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.4);
@@ -63,14 +111,17 @@ footer {
   padding: 3% 0; }
 
 .tit__main {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #c5c5c5;
+  font-size: 3rem;
   text-align: center;
-  padding-top: 3%; }
+  padding-top: 7%; }
   .tit__main span {
-    font-size: 32px; }
+    font-size: 3rem; }
+
+.login__button {
+  color: #c5c5c5;
+  padding-top: 15%;
+  margin: 0; }
 
 header nav img {
   max-height: 55px; }
@@ -83,50 +134,16 @@ header nav ul {
     padding: 0; }
   header nav ul a {
     font-family: "Rubik", sans-serif;
-    color: white;
+    color: #c5c5c5;
     display: block;
     padding: 0.5em 1em;
     text-decoration: none; }
     header nav ul a:hover {
       background: tomato;
-      color: #aaa;
-      font-style: italic; }
+      font-style: italic;
+      color: palegreen; }
   header nav ul:first-child {
-    background: none;
-    color: white; }
-
-@media (max-width: 550px) {
-  .tit__main {
-    padding-top: 11%; }
-  .cont-faq {
-    flex-direction: column; }
-  .cont-video {
-    order: 1;
-    margin-top: 5%; }
-  .cont-ask {
-    margin-top: 5%;
-    order: 0; }
-  .cont-title {
-    padding: 0 5%; }
-  .cont-title h2 {
-    color: tomato; }
-  .cont-search {
-    width: 250px; }
-  nav ul {
-    flex-direction: column; }
-  h2 {
-    font-size: 25px; }
-  .cont-footer {
-    flex-direction: column;
-    padding: 20px 0; }
-  footer {
-    height: 140px; }
-  .cont__cuadro_peli {
-    flex-direction: column; }
-  .pelis_ver {
-    margin: 10% auto 5%; }
-  .pelis_vistas {
-    margin: 5% auto; } }
+    background: none; }
 
 .cont-ask {
   font-size: 1.5rem;
@@ -180,15 +197,6 @@ h2 {
   font-size: 40px;
   font-weight: bold;
   text-align: center; }
-
-.tit__main span {
-  font-size: 3rem; }
-
-.tit__main {
-  color: #c5c5c5;
-  text-align: center;
-  padding-top: 3%;
-  font-size: 3rem; }
 
 .cont-title {
   margin-top: 10vh; }

@@ -1,14 +1,14 @@
 .tit__main {
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	padding-top: 3%;
-
+	@include titulos($white-main, map-get($fonts, "txt-large"), $centrado);
 	span {
-		font-size: 32px;
+		font-size: map-get($fonts, "txt-large");
 	}
+}
+
+.login__button {
+	color: $white_main;
+	padding-top: 15%;
+	margin: 0;
 }
 
 header nav {
@@ -27,20 +27,19 @@ header nav {
 
 		a {
 			font-family: "Rubik", sans-serif;
-			color: white;
+			color: $white_main;
 			display: block;
 			padding: 0.5em 1em;
 			text-decoration: none;
 			&:hover {
 				background: $bck-over;
-				color: $color-white-trans;
 				font-style: italic;
+				color: palegreen;
 			}
 		}
 
 		&:first-child {
 			background: none;
-			color: white;
 		}
 	}
 }
