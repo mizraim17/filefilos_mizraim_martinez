@@ -31,7 +31,8 @@ body {
 .form__login {
   background-color: #f06464;
   margin-top: 5%;
-  padding: 3%; }
+  padding: 3%;
+  color: white; }
 
 .cont-terminos a {
   padding-top: 15%; }
@@ -167,6 +168,12 @@ footer {
 .cont__redes {
   justify-content: space-between;
   padding: 3% 0; }
+
+.footer {
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%; }
 
 .tit__main {
   color: #c5c5c5;
