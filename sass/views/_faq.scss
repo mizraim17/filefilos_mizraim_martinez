@@ -1,0 +1,41 @@
+.cont-faq {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+
+.cont-video {
+	display: flex;
+	justify-content: center;
+}
+
+.cont-ask {
+	display: flex;
+	justify-content: center;
+}
+
+iframe {
+	max-width: 100%;
+	height: auto;
+}
+
+.cont-ask {
+	@extend .center__vertical;
+
+	font-size: map-get($fonts, "txt-nom-med");
+	font-weight: 500;
+	color: #aaa;
+
+	a {
+		text-decoration: none;
+
+		&:visited,
+		&:link {
+			color: white;
+		}
+	}
+	li {
+		list-style: circle;
+		padding-bottom: 10px;
+	}
+}

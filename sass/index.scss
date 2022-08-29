@@ -1,9 +1,10 @@
 @import "./misc/variables";
 @import "./misc/normalize";
+@import "./misc/mixins";
+@import "./misc/animations";
 
 @import "./partials/footer";
 @import "./partials/header";
-@import "./misc/mixins";
 
 @import "./views/contact";
 @import "./views/faq";
@@ -16,17 +17,9 @@
 h2 {
 	color: $white-main;
 	font-family: "Rubik", sans-serif;
-	font-size: 40px;
+	font-size: map-get($fonts, "txt-medium");
 	font-weight: bold;
 	text-align: center;
-}
-
-.tit__main span {
-	font-size: map-get($fonts, "txt-large");
-}
-
-.tit__main {
-	@include titulos($white-main, map-get($fonts, "txt-large"), $centrado);
 }
 
 .center__horizontal {
@@ -43,6 +36,15 @@ h2 {
 	margin-top: 10%;
 }
 
+#icon {
+	bottom: 0.5rem;
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	right: 1rem;
+	user-select: none;
+}
+
 .cont-search {
 	max-width: 420px;
 	position: relative;
@@ -55,8 +57,7 @@ h2 {
 }
 
 .cont__redes {
-	display: flex;
-	align-items: center;
+	@extend .center__vertical;
 	justify-content: space-between;
 	padding: 3% 0;
 }

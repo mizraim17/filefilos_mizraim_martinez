@@ -22,3 +22,20 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
+.center__vertical {
+	display: flex;
+	align-items: center;
+}
+
+.center__total {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form__login {
+	background-color: #f06464;
+	margin-top: 5%;
+	padding: 3%;
+}
