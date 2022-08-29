@@ -211,6 +211,15 @@ header nav ul {
   header nav ul:first-child {
     background: none; }
 
+.img-menu {
+  display: none; }
+
+ul.header-brand {
+  padding-left: 0; }
+
+.txt-menu {
+  text-align: center; }
+
 @media (min-width: 768px) {
   .tit__main {
     padding-top: 5%;
@@ -218,10 +227,11 @@ header nav ul {
   .cont-title h2 {
     color: tomato; } }
 
-@media (min-width: 768px) {
-  .tit__main {
-    padding-top: 5%;
-    color: tomato; } }
+@media (min-width: 992px) {
+  .txt-menu {
+    display: none; }
+  .img-menu {
+    display: block; } }
 
 .cont-faq {
   display: flex;
