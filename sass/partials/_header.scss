@@ -44,6 +44,18 @@ header nav {
 		}
 	}
 }
+
+.img-menu {
+	display: none;
+}
+
+ul.header-brand {
+	padding-left: 0;
+}
+.txt-menu {
+	text-align: center;
+}
+
 @media (min-width: 768px) {
 	.tit__main {
 		padding-top: 5%;
@@ -55,9 +67,12 @@ header nav {
 	}
 }
 
-@media (min-width: 768px) {
-	.tit__main {
-		padding-top: 5%;
-		color: tomato;
+@media (min-width: 992px) {
+	.txt-menu {
+		display: none;
+	}
+
+	.img-menu {
+		display: block;
 	}
 }
