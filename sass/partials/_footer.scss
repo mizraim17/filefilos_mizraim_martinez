@@ -1,12 +1,3 @@
-footer {
-	position: fixed;
-	background-color: rgba(0, 0, 0, 0.4);
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	margin-bottom: 0px;
-}
-
 .cont-footer {
 	align-items: center;
 	display: flex;
@@ -27,13 +18,8 @@ footer {
 }
 
 footer {
-	position: fixed;
-
-	background-color: rgba(0, 0, 0, 0.4);
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	margin-bottom: 0px;
+	// background-color: rgba($color: $color-back-trans, $alpha: 0.5);
+	background-color: $color-back-trans;
 }
 
 .cont-footer {

@@ -35,11 +35,29 @@ header nav {
 				background: $bck-over;
 				font-style: italic;
 				color: palegreen;
+				font-weight: bold;
 			}
 		}
 
 		&:first-child {
 			background: none;
 		}
+	}
+}
+@media (min-width: 768px) {
+	.tit__main {
+		padding-top: 5%;
+		color: tomato;
+	}
+
+	.cont-title h2 {
+		color: $bck-over;
+	}
+}
+
+@media (min-width: 768px) {
+	.tit__main {
+		padding-top: 5%;
+		color: tomato;
 	}
 }

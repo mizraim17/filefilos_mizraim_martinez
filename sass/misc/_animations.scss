@@ -1,0 +1,124 @@
+@mixin titulos($colors, $tam_font, $alin_txt) {
+	color: $colors;
+	font-size: $tam_font;
+	text-align: $alin_txt;
+	@extend .center__total;
+	padding-top: 7%;
+}
+
+@mixin box__list__size {
+	width: 300px;
+	height: 350px;
+	padding: 20px;
+}
+
+.cont-terminos a {
+	padding-top: 15%;
+}
+
+.cont-faq {
+	flex-direction: column;
+}
+
+.cont-video {
+	order: 1;
+	margin-top: 5%;
+}
+
+.cont-ask {
+	margin-top: 5%;
+	order: 0;
+}
+
+.cont-title {
+	padding: 0 5%;
+}
+
+.cont-search {
+	width: 250px;
+}
+
+nav ul {
+	flex-direction: column;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+.cont__cuadro_peli {
+	flex-direction: column;
+}
+
+.pelis_ver,
+.pelis_vistas {
+	margin: 10% auto 5%;
+}
+/* transiciones */
+
+ul.cont__redes li img:hover {
+	transform: scale(0.7);
+}
+
+.menu__principal ul li {
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* animaciones */
+.cont__logo {
+	animation-duration: 3s;
+	animation-name: aparecer;
+	animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+	0% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.cont__dance {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+}
+
+img.dance {
+	max-height: 200px;
+}
+
+.dance.move {
+	animation-duration: 3s;
+	animation-name: baila;
+	animation-iteration-count: infinite;
+}
+
+@keyframes baila {
+	from {
+		margin-left: 0%;
+	}
+
+	25% {
+		margin-left: 300%;
+	}
+	75% {
+		margin-left: -300%;
+	}
+
+	to {
+		margin-left: 0%;
+	}
+}

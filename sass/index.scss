@@ -1,6 +1,7 @@
 @import "./misc/variables";
 @import "./misc/normalize";
 @import "./misc/mixins";
+@import "./misc/animations";
 
 @import "./partials/footer";
 @import "./partials/header";
@@ -16,7 +17,7 @@
 h2 {
 	color: $white-main;
 	font-family: "Rubik", sans-serif;
-	font-size: 40px;
+	font-size: map-get($fonts, "txt-medium");
 	font-weight: bold;
 	text-align: center;
 }

@@ -34,10 +34,6 @@
 	padding: 0 5%;
 }
 
-.cont-title h2 {
-	color: $bck-over;
-}
-
 .cont-search {
 	width: 250px;
 }
@@ -50,10 +46,6 @@ h2 {
 	font-size: 25px;
 }
 
-footer {
-	height: 140px;
-}
-
 .cont__cuadro_peli {
 	flex-direction: column;
 }
@@ -61,17 +53,4 @@ footer {
 .pelis_ver,
 .pelis_vistas {
 	margin: 10% auto 5%;
-}
-
-@media (min-width: 768px) {
-	.tit__main {
-		padding-top: 5%;
-		color: tomato;
-	}
-}
-
-@media (min-width: 1200px) {
-	.cont-terminos a {
-		padding-top: 0;
-	}
 }

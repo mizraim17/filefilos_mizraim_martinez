@@ -28,6 +28,11 @@ body {
   justify-content: center;
   align-items: center; }
 
+.form__login {
+  background-color: #f06464;
+  margin-top: 5%;
+  padding: 3%; }
+
 .cont-terminos a {
   padding-top: 15%; }
 
@@ -45,8 +50,38 @@ body {
 .cont-title {
   padding: 0 5%; }
 
-.cont-title h2 {
-  color: tomato; }
+.cont-search {
+  width: 250px; }
+
+nav ul {
+  flex-direction: column; }
+
+h2 {
+  font-size: 25px; }
+
+.cont__cuadro_peli {
+  flex-direction: column; }
+
+.pelis_ver,
+.pelis_vistas {
+  margin: 10% auto 5%; }
+
+.cont-terminos a {
+  padding-top: 15%; }
+
+.cont-faq {
+  flex-direction: column; }
+
+.cont-video {
+  order: 1;
+  margin-top: 5%; }
+
+.cont-ask {
+  margin-top: 5%;
+  order: 0; }
+
+.cont-title {
+  padding: 0 5%; }
 
 .cont-search {
   width: 250px; }
@@ -57,9 +92,6 @@ nav ul {
 h2 {
   font-size: 25px; }
 
-footer {
-  height: 140px; }
-
 .cont__cuadro_peli {
   flex-direction: column; }
 
@@ -67,22 +99,53 @@ footer {
 .pelis_vistas {
   margin: 10% auto 5%; }
 
-@media (min-width: 768px) {
-  .tit__main {
-    padding-top: 5%;
-    color: tomato; } }
+/* transiciones */
+ul.cont__redes li img:hover {
+  transform: scale(0.7); }
 
-@media (min-width: 1200px) {
-  .cont-terminos a {
-    padding-top: 0; } }
+.menu__principal ul li {
+  font-style: italic;
+  font-weight: bold; }
 
-footer {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.4);
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px; }
+/* animaciones */
+.cont__logo {
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.cont__dance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%; }
+
+img.dance {
+  max-height: 200px; }
+
+.dance.move {
+  animation-duration: 3s;
+  animation-name: baila;
+  animation-iteration-count: infinite; }
+
+@keyframes baila {
+  from {
+    margin-left: 0%; }
+  25% {
+    margin-left: 300%; }
+  75% {
+    margin-left: -300%; }
+  to {
+    margin-left: 0%; } }
 
 .cont-footer {
   align-items: center;
@@ -96,12 +159,7 @@ footer {
   margin-top: 10%; }
 
 footer {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.4);
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px; }
+  background-color: rgba(0, 0, 0, 0.3); }
 
 .cont-footer {
   justify-content: space-evenly; }
@@ -141,9 +199,39 @@ header nav ul {
     header nav ul a:hover {
       background: tomato;
       font-style: italic;
-      color: palegreen; }
+      color: palegreen;
+      font-weight: bold; }
   header nav ul:first-child {
     background: none; }
+
+@media (min-width: 768px) {
+  .tit__main {
+    padding-top: 5%;
+    color: tomato; }
+  .cont-title h2 {
+    color: tomato; } }
+
+@media (min-width: 768px) {
+  .tit__main {
+    padding-top: 5%;
+    color: tomato; } }
+
+.cont-faq {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%; }
+
+.cont-video {
+  display: flex;
+  justify-content: center; }
+
+.cont-ask {
+  display: flex;
+  justify-content: center; }
+
+iframe {
+  max-width: 100%;
+  height: auto; }
 
 .cont-ask {
   font-size: 1.5rem;
@@ -161,6 +249,15 @@ header nav ul {
   color: #c5c5c5;
   font-size: 2rem;
   margin: 10% 0 8%; }
+
+.cont-terms {
+  margin: 5%;
+  display: flex;
+  justify-content: center; }
+
+.txt-terms {
+  font-size: 22px;
+  color: #aaa; }
 
 .pelis_ver {
   background: #555;
@@ -194,7 +291,7 @@ header nav ul {
 h2 {
   color: #c5c5c5;
   font-family: "Rubik", sans-serif;
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center; }
 
